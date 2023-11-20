@@ -17,7 +17,7 @@ cd /app
 npm install
 
 dnf install mongodb-org-shell -y
-mongo --host MONGODB-SERVER-IPADDRESS </app/schema/cart.js
+mongo --host mongodb.sdevops28.online </app/schema/cart.js
 
 systemctl daemon-reload
 systemctl enable cart
