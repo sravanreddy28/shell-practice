@@ -33,4 +33,3 @@ echo -e "\e[35m>>>>>>> enable start cart <<<<<<<\e[0m"
 systemctl daemon-reload &>>${log}
 systemctl enable cart &>>${log}
 systemctl restart cart &>>${log}
-
