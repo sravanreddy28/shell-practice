@@ -1,5 +1,5 @@
 echo -e "\e[31m >>>>>> install nginx -y <<<<<< \e[0m"
-dnf install nginx -y &>/tmp/roboshop.log
+dnf install nginx -y &>>/tmp/roboshop.log
 
 echo -e "\e[32m >>>>>> cp nginx-roboshop.conf <<<<<< \e[0m"
 cp nginx-roboshop.conf /etc/nginx/default.d/roboshop.conf &>/tmp/roboshop.log
